@@ -2,19 +2,34 @@ body {
     background-color: rgb(235, 237, 242);
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
 }
 
-main {
+.nav__headerLeft--zoComLogo {
+    padding-left: 15px;
+}
+
+.main {
     display: grid;
     justify-content: center;
 
 }
 
-.slider {
+.cardInfoContainer__checkbox {
     display: flex;
+    align-items: center;
+    
+}
+
+.cardInfoContainer__title {
+    font-size: 50px;
+    line-height: 5px;
+}
+
+.cardInfoContainer__checkbox--position {
+    padding-right: 15px;
 }
 
 .cardHolder {
@@ -22,6 +37,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
+
 
 card {
     border: 1px solid white;
@@ -34,9 +50,30 @@ card {
     line-height: 5px;
 }
 
+.textInCard2 {
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.textInCard2 h3{
+    line-height: 15px;
+}
+
+.listItemTopCard1 {
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(65, 67, 71);;
+    margin-top: 60px;
+}
+
+.listItemTopCard2 {
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 10px;
+}
+
 .listItemTop {
     border-radius: 10px 10px 0px 0px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .listItemBottom {
