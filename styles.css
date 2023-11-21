@@ -29,6 +29,32 @@ card {
     background-color: rgb(245, 246, 255);
 }
 
+.textInCard {
+    margin-left: 10px;
+    line-height: 5px;
+}
+
+.listItemTop {
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
+}
+
+.listItemBottom {
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+}
+
+li {
+    background-color: rgb(235, 237, 242);
+    border: solid 1px rgb(235, 237, 242);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    list-style: none;
+
+}
+
 
 
 
