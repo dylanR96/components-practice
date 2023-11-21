@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(235, 237, 242);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: grid;
+    justify-content: center;
+
+}
+
+.slider {
+    display: flex;
+}
+
+.cardHolder {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+card {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(245, 246, 255);
+}
+
+
+
+
