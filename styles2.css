@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(235, 237, 242);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__header-left--zoComLogo {
+    padding-left: 15px;
+}
+
+.wrapper {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__top-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper__bottom-title {
+    display: flex;
+    justify-content: left;
+}
+
+.wrapper__nav {
+    display: flex;
+    justify-content: right;
+}
+
+.wrapper__checkbox {
+    display: flex;
+    justify-content: left;
+}
+
+.wrapper__grading-container {
+    background-color: rgb(245, 246, 255);
+}
+
+.wrapper__top-title--second-title {
+    margin-left: 1em;
+}
+
+.wrapper__goals {
+    background-color: rgb(230, 234, 243);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.wrapper__goals--left-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__goals--right-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.wrapper__goals--right-text--texty1 {
+    display: flex;
+}
+
+.wrapper__goals--right-text--texty2 {
+    display: flex;
+}
+
+.wrapper--border-between-sections {
+    border: 1px solid rgb(228, 229, 237);
+    margin-left: 1em;
+    margin-right: 1em;
+}
