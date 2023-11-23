@@ -135,6 +135,25 @@ body {
     align-items: center;
 }
 
+.wrapper__assignment--top-text {
+    border: 1px solid rgb(228, 229, 237);
+    background-color: rgb(228, 229, 237);
+}
+
+.wrapper__assignment__files {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(228, 229, 237);
+    background-color: rgb(228, 229, 237);
+    margin-bottom: 0.2em;
+}
+
+.wrapper__assignment__files--image {
+    height: 1.5em;
+    width: 1.5em;
+    margin-right: 1em;
+}
+
 .wrapper__goals--part1 {
     background-color: rgb(245, 246, 255);
     display: flex;
