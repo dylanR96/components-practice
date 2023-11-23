@@ -68,7 +68,6 @@ body {
     justify-content: space-between;
     margin-left: 1em;
     margin-right: 1em;
-    margin-bottom: 1em;
 }
 
 .wrapper__goals--left-text {
@@ -116,4 +115,49 @@ body {
     border: 1px solid rgb(228, 229, 237);
     margin-left: 1em;
     margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+
+.calender-image {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.wrapper__assignment {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper__date-info {
+    display: flex;
+    align-items: center;
+}
+
+.wrapper__goals--part1 {
+    background-color: rgb(245, 246, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.wrapper__goals--part2 {
+    background-color: rgb(224, 214, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.wrapper__goals--part3 {
+    background-color: rgb(182, 220, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
 }
