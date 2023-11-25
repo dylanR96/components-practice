@@ -119,10 +119,32 @@ body {
     margin-top: 1em;
 }
 
+.wrapper__grading {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.wrapper__grading--grade {
+    border: 1px solid rgb(65, 67, 71);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: rgb(65, 67, 71);
+}
+
+.wrapper__grading--marked-grade {
+    border: 1px solid rgb(65, 67, 71);
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(61, 61, 71);
+}
 
 .calender-image {
-    height: 1.5em;
-    width: 1.5em;
+    height: 2em;
+    width: 2em;
 }
 
 .wrapper__assignment {
