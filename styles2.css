@@ -83,8 +83,7 @@ body {
 .wrapper__goals--right-text {
     display: flex;
     flex-direction: column;
-    margin-left: 1em;
-    margin-right: 2em;
+    margin-right: 14em;
 }
 
 .wrapper__goals--right-text--texty1 {
@@ -119,6 +118,14 @@ body {
     margin-top: 1em;
 }
 
+.wrapper--border-between-sections-2 {
+    border: 1px solid rgb(245, 246, 255);
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
 .wrapper__grading {
     display: flex;
     justify-content: space-around;
@@ -126,22 +133,43 @@ body {
 }
 
 .wrapper__grading--grade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid rgb(65, 67, 71);
     text-decoration: none;
     width: 100%;
-    text-align: center;
     color: rgb(65, 67, 71);
+    width: 10em;
+    height: 2.8em;
 }
 
 .wrapper__grading--marked-grade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid rgb(65, 67, 71);
     text-decoration: none;
     width: 100%;
-    text-align: center;
     color: rgb(255, 255, 255);
     background-color: rgb(61, 61, 71);
+    width: 10em;
+    height: 2.8em;
+    border-radius: 10px 0px 0px 10px;
 }
 
+.wrapper__grading--grade-variation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(65, 67, 71);
+    text-decoration: none;
+    width: 100%;
+    color: rgb(65, 67, 71);
+    width: 10em;
+    height: 2.8em;
+    border-radius: 0px 10px 10px 0px;
+}
 .calender-image {
     height: 2em;
     width: 2em;
@@ -162,12 +190,22 @@ body {
     background-color: rgb(228, 229, 237);
 }
 
-.wrapper__assignment__files {
+.wrapper__assignment__files--part1 {
     display: flex;
     align-items: center;
     border: 1px solid rgb(228, 229, 237);
     background-color: rgb(228, 229, 237);
     margin-bottom: 0.2em;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.wrapper__assignment__files--part2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(228, 229, 237);
+    background-color: rgb(228, 229, 237);
+    margin-bottom: 0.2em;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .wrapper__assignment__files--image {
@@ -201,4 +239,12 @@ body {
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 1em;
+}
+
+.wrapper__goals--right-text--texty3 {
+    background-color: rgb(234, 72, 72);
+    border: 1px solid rgb(234, 72, 72);
+    text-align: center;
+    color: rgb(234, 235, 236);
+    border-radius: 10px;
 }
